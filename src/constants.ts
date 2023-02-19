@@ -1,9 +1,9 @@
 type Event = "Sangeet" | "Wedding Ceremony" | "Reception";
 
 export const DressCode: Record<Event, string> = {
-  Sangeet: "Indian",
-  "Wedding Ceremony": "Indian",
-  Reception: "Western",
+  Sangeet: "Colorful Indian Attire",
+  "Wedding Ceremony": "Traditional Indian Attire",
+  Reception: "Western or Indian Semi-Formal Attire",
 };
 
 export const EventMap: Record<string, Event> = {
