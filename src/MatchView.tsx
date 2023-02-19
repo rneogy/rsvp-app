@@ -1,5 +1,6 @@
 import { DressCode, EventMap } from "./constants";
 import { Match } from "./types";
+import { getName } from "./utils";
 
 interface MatchViewProps {
   match: Match;
@@ -12,11 +13,7 @@ export default function MatchView(props: MatchViewProps): JSX.Element {
   const events = invitations.map((invitation) => EventMap[invitation.eventId]);
   return (
     <>
-      <h2>
-        {match.people
-          .map((person) => person.firstName + " " + person.lastName)
-          .join(", ")}
-      </h2>
+      <h2>{match.people.map(getName).join(", ")}</h2>
       <div>
         {events.map((event) => (
           <div key={event}>

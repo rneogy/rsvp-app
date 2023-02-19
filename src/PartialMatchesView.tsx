@@ -2,6 +2,7 @@ import { Button } from "@blueprintjs/core";
 import { useState } from "react";
 import MatchView from "./MatchView";
 import { Match } from "./types";
+import { getName } from "./utils";
 
 interface PartialMatchesViewProps {
   partialMatches: Match[];
@@ -29,9 +30,7 @@ export default function PartialMatchesView(
           >
             Yes
           </Button>
-          {match.people
-            .map((person) => person.firstName + " " + person.lastName)
-            .join(", ")}
+          {match.people.map(getName).join(", ")}
         </div>
       ))}
     </div>

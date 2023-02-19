@@ -1,6 +1,6 @@
 export interface Person {
   firstName: string;
-  lastName: string;
+  lastName?: string;
   isLeader: boolean;
   invitations: Invitation[];
 }
