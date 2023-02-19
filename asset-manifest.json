@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rsvp-app/static/css/main.63b45241.css",
-    "main.js": "/rsvp-app/static/js/main.5ec4c32b.js",
+    "main.js": "/rsvp-app/static/js/main.3d9bec0e.js",
     "static/js/787.9b169cb8.chunk.js": "/rsvp-app/static/js/787.9b169cb8.chunk.js",
     "static/media/blueprint-icons-20.eot?": "/rsvp-app/static/media/blueprint-icons-20.157fc7a37a71b9495da1.eot",
     "static/media/blueprint-icons-20.ttf?": "/rsvp-app/static/media/blueprint-icons-20.8a525ab91769f6d60c94.ttf",
@@ -13,11 +13,11 @@
     "static/media/blueprint-icons-16.woff2?": "/rsvp-app/static/media/blueprint-icons-16.8b1c5e35bad17bae103e.woff2",
     "index.html": "/rsvp-app/index.html",
     "main.63b45241.css.map": "/rsvp-app/static/css/main.63b45241.css.map",
-    "main.5ec4c32b.js.map": "/rsvp-app/static/js/main.5ec4c32b.js.map",
+    "main.3d9bec0e.js.map": "/rsvp-app/static/js/main.3d9bec0e.js.map",
     "787.9b169cb8.chunk.js.map": "/rsvp-app/static/js/787.9b169cb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b45241.css",
-    "static/js/main.5ec4c32b.js"
+    "static/js/main.3d9bec0e.js"
   ]
 }
